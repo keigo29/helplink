@@ -4,7 +4,7 @@ export default function Voice() {
     return (
       <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
-        <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">お客様の声</h1>
+      <h1 class="text-3xl font-bold title-font text-sky-600 mb-12 text-center">お客様の声</h1>
         <div class="flex flex-wrap -m-4">
           <div class="p-4 md:w-1/2 w-full">
             <div class="h-full bg-gray-100 p-8 rounded">
