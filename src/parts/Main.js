@@ -5,6 +5,7 @@ import Contents from './layout/Contents';
 import Mention from './layout/Mention';
 import Price from './layout/Price';
 import Flow from './layout/Flow';
+import Voice from './layout/Voice';
 import Team from './layout/Team';
 export default function Main() {
   return (
@@ -14,6 +15,7 @@ export default function Main() {
       <Flow/>
       {/* <Contents/> */}
       <Team/>
+      <Voice/>
       <Price/>
   
     </main>
