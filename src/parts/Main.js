@@ -7,6 +7,7 @@ import Price from './layout/Price';
 import Flow from './layout/Flow';
 import Voice from './layout/Voice';
 import Team from './layout/Team';
+import Pro from './layout/Pro';
 export default function Main() {
   return (
     <main>
@@ -16,7 +17,8 @@ export default function Main() {
       {/* <Contents/> */}
       <Team/>
       <Voice/>
-      <Price/>
+      <Pro/>
+      {/* <Price/> */}
   
     </main>
   )

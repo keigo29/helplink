@@ -34,7 +34,7 @@ export default function Header() {
         </div>
       </div>
       
-      <div className={`w-full`}>
+      <div className={`w-full `} class="rounded-lg">
         <img src={mv} loading="lazy"  class="h-full w-full object-cover object-center" />
       </div>
      

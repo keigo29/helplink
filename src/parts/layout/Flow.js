@@ -1,3 +1,6 @@
+import f1 from '../../images/f1.png';
+import f2 from '../../images/f2.png';
+import f3 from '../../images/f3.png';
 export default function Flow() {
     return (
 <section class="text-gray-600 body-font " >
@@ -13,13 +16,13 @@ export default function Flow() {
       <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-sky-600 text-white relative z-10 title-font font-medium text-sm">1</div>
       <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
         <div class="flex-shrink-0 w-24 h-24 bg-sky-100 text-sky-500 rounded-full inline-flex items-center justify-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-          </svg>
+        <img src={f1}/>
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 class="font-bold title-font text-sky-600 mb-1 text-xl">お問い合わせ</h2>
-          <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+          <p class="leading-relaxed">
+          何かご質問やお手伝いできることがございましたら、お気軽にお問い合わせください。
+            </p>
         </div>
       </div>
     </div>
@@ -30,13 +33,13 @@ export default function Flow() {
       <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-sky-600 text-white relative z-10 title-font font-medium text-sm">2</div>
       <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
         <div class="flex-shrink-0 w-24 h-24 bg-sky-100 text-sky-500 rounded-full inline-flex items-center justify-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
-            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-          </svg>
+        <img src={f2}/>
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 class="font-bold title-font text-sky-600 mb-1 text-xl">日程調整/料金相談</h2>
-          <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+          <p class="leading-relaxed">
+          ご希望の日程や具体的なサービス内容、予算についてお知らせいただければ、それに基づいて調整や提案をさせていただきます。
+            </p>
         </div>
       </div>
     </div>
@@ -47,14 +50,13 @@ export default function Flow() {
       <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-sky-600 text-white relative z-10 title-font font-medium text-sm">3</div>
       <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
         <div class="flex-shrink-0 w-24 h-24 bg-sky-100 text-sky-500 rounded-full inline-flex items-center justify-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
-            <circle cx="12" cy="5" r="3"></circle>
-            <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-          </svg>
+      <img src={f3}/>
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 class="font-bold title-font text-sky-600 mb-1 text-xl">生活のお助け</h2>
-          <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+          <p class="leading-relaxed">
+          家事や日常のタスクの軽減、スケジュールの調整、情報提供など、お客様の生活を円滑にするために全力でサポートいたします。
+            </p>
         </div>
       </div>
     </div>
